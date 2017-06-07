@@ -3,6 +3,6 @@ Simple collection of functions implementing the calculation of a reference-plane
 
 Typical usage would look like this:
 
-source(file="/Users/Wouter/Documents/Research_Folder/R-functions/plane.R")
-ord <- pcoa_custom(otu_table)
+source(file="/Users/Wouter/Documents/Research_Folder/R-functions/plane.R")  
+ord <- pcoa_custom(otu_table)  
 dtrp <- distance_to_reference_plane(ord, meta, column1 = "Treatment", category1 = "control", column2 = "Timepoint", category2 = "baseline")
