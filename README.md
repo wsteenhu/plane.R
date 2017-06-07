@@ -1,5 +1,5 @@
 # plane.R
-Simple collection of functions implementing the calculation of a reference-plane (as described by Halfvarson, Nat Microbiol, 2017) in R instead of Python.
+Collection of functions implementing the calculation of a reference-plane (as described by Halfvarson, Nat Microbiol, 2017) in R instead of Python.
 
 Typical usage would look like this:
 
