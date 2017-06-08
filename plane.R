@@ -63,4 +63,4 @@ pcoa_custom <- function(otu_table_raw, method="bray", log=T) {
   return(pcoa(d)) }
 #otu_table_raw has taxa in rows, samples in columns.
 
-#Example: ord <- pcoa_custom(raw_rare, log=T)
+#Example: ord <- pcoa_custom(otu_table_raw, log=T)
