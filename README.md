@@ -7,4 +7,4 @@ source(file="/your/path/here/plane.R")
 ord <- pcoa_custom(otu_table)  
 dtrp <- distance_to_reference_plane(ord, meta, column1 = "Treatment", category1 = "control")
 
-Please find the original Python-implementation here: https://github.com/ElDeveloper/reference-plane.
+Please find the original Python-implementation [here](https://github.com/ElDeveloper/reference-plane).
